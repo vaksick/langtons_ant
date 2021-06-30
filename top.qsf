@@ -86,7 +86,6 @@ set_global_assignment -name VERILOG_FILE grid.v
 set_global_assignment -name VERILOG_FILE data_to_color.v
 set_global_assignment -name VERILOG_FILE ant_body.v
 set_global_assignment -name VERILOG_FILE cell_math.v
-set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
 
 #-----------------------------------------
 set_location_assignment PIN_J10 -to isys_clk
@@ -114,3 +113,4 @@ set_location_assignment PIN_D17 -to B[5]
 #KEY2
 set_location_assignment PIN_AB12 -to key_start
 #-----------------------------------------
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

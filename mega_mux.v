@@ -1,6 +1,6 @@
 module mega_mux(
     input iclk,
-    
+
     input ihs,
     input ivs,
     input ipix_active,
@@ -10,7 +10,6 @@ module mega_mux(
 
     input igrid_data_en,
     input [2:0] igrid_data,
-    
 
     input iant_body_data_en,
     input [2:0] iant_body_data,

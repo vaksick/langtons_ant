@@ -1,7 +1,7 @@
 module debounce(
-    input clk,
-    input ibutton,
-    output reg obutton
+    input       clk,
+    input       ibutton,
+    output reg  obutton
 );
     parameter WIDTH = 32;
     

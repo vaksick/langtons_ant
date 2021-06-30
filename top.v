@@ -3,12 +3,12 @@
 `define bit_rxy         `bit_size(C_CELL_WIDTH, C_CELL_HEIGHT)
 
 module top(
-    input isys_clk,
+    input   isys_clk,
 
-    input key_start,
+    input   key_start,
 
-    output ovga_hs,
-    output ovga_vs,
+    output  ovga_hs,
+    output  ovga_vs,
 
     output [5:0] R,
     output [5:0] G,
